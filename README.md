@@ -42,7 +42,7 @@ The weights on the CPS files are controlled to independent estimates of the civi
 
 ---
 
-## Data Pre-processing Steps and Inspiration
+## Data Pre-processing Steps
 The pre-processing of the data included the following steps:
 1. Step 1: Load Data
 2. Step 2: Perform ***Exploratory Data Analysis***
@@ -62,6 +62,8 @@ The pre-processing of the data included the following steps:
 6. Step 6: Choose the best model and predict results.
 
 ---
+
+
 
 
 

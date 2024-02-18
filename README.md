@@ -177,29 +177,33 @@ We can conclude that is no dependency of "native-country" attribute on the targe
 
 ### Multivariate Analysis
    1. **Correlation among the numeric variables**:
+      
         ![](Images/image08.png)
       - *Insights*:
           - There is no strong correlation among the numeric attributes.
           - There is neither strong positive nor strong negative correlation present in any variable.
           - The strongest correlation is present between capital gain and hours-per-week with Coefficient .082.(which is less than 0.1, it means that very small correlation among them).
-   2. **Multivariate Analysis between "income", "hours-per-week", "gender"**:
+   3. **Multivariate Analysis between "income", "hours-per-week", "gender"**:
+      
         ![](Images/image41.png)
        - *Insights*:
            - The median "hours-per-week" for females is lower than the males in the Income group who earns <=50k.
            - Boxplot range for Income group who earns <=50k [minimum (q1-1.5* IQR) and maximum (q3+ 1.5* IQR)] i.e. Male ~[32,52], Female ~[17,57].
            - Boxplot range for Income group who earns >50k [minimum (q1-1.5* IQR) and maximum (q3+ 1.5* IQR)] i.e. Male ~[23,63], Female ~[30,57].
-  3. **Multivariate Analysis between "income", "age", "gender"**:
+  5. **Multivariate Analysis between "income", "age", "gender"**:
+     
        ![](Images/image42.png)
        - *Insights*:
            - Median "age" of Females who earn less than 50k has very minute difference than the Median "age" of males who earn less than 50k.
            - But the Median "age" of Females who earn greater than 50k has age difference of 2-3years than the Median "age" of males who earn greater than 50k.
-   4. **Multivariate Analysis between "income", "age", "Capital-gain"**:
+   7. **Multivariate Analysis between "income", "age", "Capital-gain"**:
+      
         ![](Images/image43.png)
         - *Insights*:
             - Between age 28 and 64 capital gain is upto 15000 and after that it decreases and again increments at age 90.
-            - Age 90 doesn't follow the pattern.
-            - At age 90 people can't work in goverment or private sectors. But there are some observations present in our dataset which shows that despite the age of 90 years they work in those sectors.
-  5. **Multivariate Analysis between "income", "age", "Capital-gain"**:
+            - Age 90 doesn't follow the pattern as people of this age can't work in goverment or private sectors. But there are some observations present in our dataset which shows that despite the age of 90 years they work in those sectors.
+  9. **Multivariate Analysis between "income", "age", "Capital-gain"**:
+      
        ![](Images/image44.png)
        - *Insights*:
            - Majority of people can be seen working for 40,50 and 60 hours per week and capital gain seems to be increasing.
@@ -249,3 +253,4 @@ We can conclude that is no dependency of "native-country" attribute on the targe
 ![](Images/image010.png)
 ![](Images/image011.png)
 
+---

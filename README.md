@@ -206,3 +206,46 @@ We can conclude that is no dependency of "native-country" attribute on the targe
            - There are few people working for 99 hours per week but doesn't seem to make high capital gain. Conversely people working below 40 hours per week are making high capital gains.
 
 ---
+
+## Conclusion of Complete EDA
+
+### 1. Features Removal:
+  - Education num and education are giving similar information.
+  - Using capital-gain and capital loss , we can make new variable called capital-change.
+
+### 2. Outliers Summary:
+  - Capital gain of 99999 doesn't follow any pattern and from graph above it clearly distinguishes to be an outlier.
+  - Our dataset has people with age 90 and working for 40 hours per week in goverment or private sectors which is rare.
+
+### 3. Other conclusion:
+  - This dataset not balance , i.e. 76% of them are belong to income group 1 (who earns more than 50k) and 23.93% fall under the income group 0 (who earns less than 50k).
+  - Females have more flexible working hours per week in the income groups who earns <=50k.
+  - Males have more flexible working hours per week in the income groups who earns >50k.
+  - The Median "age" of Females who earn greater than 50k has age difference of 2-3years(lower) than the Median "age" of males who earn greater than 50k.
+  - Generally people can be seen working for 30 hours to 40 hours per week.
+  - Income group who earns >50k have flexible working hours.
+  - For "female" earning more than 50k is rare with only 3.62% of all observations. But for male, 20.31% of all people earn more than 50k. S
+  - Self-emp-inc workclass is only where more people earn >50k(belong to income group 1).
+  - People having degree doctorate,prof-school,masters are making salary more than 50K(it can be concluded that higher education means more salary).
+
+---
+
+## Model Evaluations:
+   ### Selecting Features: 
+   ![](Images/image45.png)
+   ### Training and Evaluating Multiple Models:
+   ![](Images/image46.png)
+   ![](Images/image47.png)
+   ### Selecting Best Model:
+   ![](Images/image48.png)
+
+   - Based on the algorithm comparison above, we can conclude that the Random Forest Classifier is the best technique for this dataset model.
+
+---
+
+## Finalize Model
+![](Images/image49.png)
+### Results
+![](Images/image010.png)
+![](Images/image011.png)
+
